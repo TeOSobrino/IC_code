@@ -7,7 +7,7 @@ Este repositório contém todo o código utilizado em minha iniciação científ
 ├── 📂 bitstreams-zcu104: bitstreams parciais para a placa zcu-104 \
 ├── 📂 black-parrot-modified: código HDL modificado para aplicação de DFX \
 ├── 📂 black-parrot-original: código HDL original do processador  \
-└── 📂 Pynq-notebooks: notebooks usados no PYNQ para as trocas parciais e medidas de tempo \
+└── 📂 Pynq-notebooks: notebooks usados no PYNQ para as trocas parciais e medidas de tempo 
 
 ## Versões dos softwares e sistemas usados:
 
