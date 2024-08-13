@@ -22,6 +22,7 @@ Este repositório contém todo o código utilizado em minha iniciação científ
 ```
 Vivado: 2022.1 
 gcc: 12.3.0
+g++: 11.4.0
 python: 3.11.8
 ```
 
