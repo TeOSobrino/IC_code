@@ -4,6 +4,7 @@ Este repositório contém todo o código utilizado em minha iniciação científ
 ## Estrutura do repositório e seus conteúdos:
 
 📂 IC-code: diretório base \
+├── 📂 benchtests: códigos usados para o benchtest do processador \
 ├── 📂 bitstreams-zcu104: bitstreams parciais para a placa zcu-104 \
 ├── 📂 black-parrot-modified: código HDL modificado para aplicação de DFX \
 ├── 📂 black-parrot-original: código HDL original do processador  \
@@ -35,6 +36,12 @@ gcc: 11.2.0
 python: 3.10.4
 PYNQ: 3.0.1
 ```
+
+### Como executar:
+
+Caso a FPGA seja uma ZCU104 é necessário apenas carregar os bitstreams e fazer o upload dos benchtests via PYNQ.
+Caso contrário é necessário compilar os arquivos presentes na pasta black-parrot-modified a fim de gerar os bitstreams parciais e realizar o passo acima 
+(fluxo de implementação à ser melhor explicado)
 
 ## Detalhes do projeto:
 Título: Uso de reconfiguração dinâmica em FPGAs para redefinir arquiteturas multicore em tempo de execução.
