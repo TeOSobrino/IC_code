@@ -1,0 +1,8 @@
+results/
+logs/
+reports/
+DVEfiles/
+*.tr
+*.pyc
+tools/install/
+regress_logs/
