@@ -1,4 +1,4 @@
-Copyright (c) 2024, Téo Sobrino Alves
+Copyright (c) 2019, University of Washington
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -22,10 +22,3 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-This project contains multiple Open Source repositories embedded into it, namely
-Black Parrot project from University of Washington and RNN from Yusuke Shinyama.
-All due licenses are stated in their respective directories. This project is not
-meant for commercial use either in source code or binary. No harm or violations
-to the original authors was intented and this docuemnt is proof of good faith
-in the use and redistribuiton of the original source code.
