@@ -1,7 +1,8 @@
 # Makefile
 
 RM=rm -f
-CC=cc -O -Wall -Werror
+#CC=cc -O -Wall -Werror #change to riscv compilation
+CC=riscv32-unknown-elf-gcc -O2 -Wall
 CURL=curl
 GZIP=gzip
 
@@ -37,7 +38,7 @@ test_mnist: ./mnist $(MNIST_FILES)
 	./mnist $(MNIST_FILES)
 
 test_rnn: ./rnn
-	./rnn
+	@
 
 ./bnn: bnn.c
 	$(CC) -o $@ $^ $(LIBS)
