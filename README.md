@@ -43,6 +43,9 @@ Beneficiário: Téo Sobrino Alves.
 Orientador: Vanederlei Bonato.
 Unidade/Instituição: ICMC/USP São Carlos.
 
+## Agradecimentos:
 Agradeço à FAPESP pela concessão da bolsa do projeto n° 2023/15719-2, que possibilitou a realização deste trabalho.
 As opiniões, hipóteses e conclusões ou recomendações expressas neste material são de responsabilidade do(s) autor(es) 
-e não necessariamente refletem a visão da FAPESP
+e não necessariamente refletem a visão da FAPESP.
+
+Agradeço à equipe de desenvolvimento do processador Black-Parrot e nomeadamente a Dan Petrisko que me auxiliou com dúvidas e procedimentos específicos para a implementação do processador em FPGA via PYNQ.
