@@ -1,9 +1,12 @@
 Config          Logic LUTs  LUTRAMs  FFs      RAMB36  RAMB18  DSP48
 Default         31,096      1,360    12,910   6       147     11
 Small           24,199      1,102    10,034   6       82      11
-reconf          30,546      1,314    12,817   6       102     11
+reconf red      30,546      1,314    12,817   6       102     11
+reconf inc      31,296      1,389    12,989   6       206     11
 Available       230,400     --       460,800  --      672     1728
 
+reduced:   -30.62%
+increased: +40.14%
 
 File1 size: 2.3MB;
 File2 size: 2.4MB;
