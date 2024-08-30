@@ -1,0 +1,44 @@
+Config          Logic LUTs  LUTRAMs  FFs      RAMB36  RAMB18  DSP48
+Default         31,096      1,360    12,910   6       147     11
+Small           24,199      1,102    10,034   6       82      11
+reconf          30,546      1,314    12,817   6       102     11
+Available       230,400     --       460,800  --      672     1728
+
+
+File1 size: 2.3MB;
+File2 size: 2.4MB;
+
+Throughput: 387.9 MB/s
+
+PR1 Time consumption:  5929.363 us (10e-6)
+PR2 Time consumption:  6187.162 us (10e-6)
+
+CNN:
+
+Config          Execution Time(us)      Reconfiguration Time(us)     Total time(us)  Avg Cache Hit(%)
+2cpu default    17849.438                 0                          17849.438          65%
+2cpu PR red.    18113.041                 5929.363                   24042.404          54%
+2cpu PR inc.    16582.839                 6187.162                   22770.001          83%
+1 cpu           30968.775                 0                          30968.775          48%        
+
+Percentual changes of reconf CPU:
+Baseline        Exec time       Total time    Memory    Total area
+2cpu Default    101.48%         134.70%       69.39%    94.35%    
+
+1cpu Default    58.49%          77.63%        169.39%   194.35%         
+
+
+Linked List:
+
+Config          Execution Time(us)      Reconfiguration Time(us)     Total time(us)  Avg Cache Hit(%)
+2cpu default    
+2cpu PR red.    
+2cpu PR inc.    
+1 cpu                   
+
+Percentual changes of reconf CPU:
+Baseline        Exec time       Total time    Memory    Total area
+2cpu Default        
+
+1cpu Default            
+
