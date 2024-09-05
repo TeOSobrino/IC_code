@@ -2,7 +2,7 @@ Config          Logic LUTs  LUTRAMs  FFs      RAMB36  RAMB18  DSP48
 Default         31,096      1,360    12,910   6       147     11
 Small           24,199      1,102    10,034   6       82      11
 reconf red      30,546      1,314    12,817   6       102     11
-reconf inc      31,296      1,389    12,989   6       206     11
+reconf inc      31,596      1,789    12,989   6       206     11
 Available       230,400     --       460,800  --      672     1728
 
 reduced:   -30.62%
@@ -18,11 +18,11 @@ PR2 Time consumption:  6187.162 us (10e-6)
 
 CNN:
 
-Config          Execution Time(us)      Reconfiguration Time(us)     Total time(us)  Avg Cache Hit(%)
-2cpu default    17849.438                 0                          17849.438          65%
-2cpu PR red.    18113.041                 5929.363                   24042.404          54%
-2cpu PR inc.    16582.839                 6187.162                   22770.001          83%
-1 cpu           30968.775                 0                          30968.775          48%        
+Config          Execution Time(ms)      Reconfiguration Time(ms)     Total time(ms)  Avg Cache Hit(%)
+2cpu default    173.849438                 0                          173.849438          70
+2cpu PR red.    189.113041                 5.929363                   195.042404          44
+2cpu PR inc.    164.582839                 6.187162                   170.770001          88
+1 cpu           304.968775                 0                          304.968775          37        
 
 Percentual changes of reconf CPU:
 Baseline        Exec time       Total time    Memory    Total area
@@ -33,15 +33,15 @@ Baseline        Exec time       Total time    Memory    Total area
 
 Linked List:
 
-Config          Execution Time(us)      Reconfiguration Time(us)     Total time(us)  Avg Cache Hit(%)
-2cpu default    
-2cpu PR red.    
-2cpu PR inc.    
-1 cpu                   
+Config          Execution Time(ms)      Reconfiguration Time(ms)     Total time(ms)  Avg Cache Hit(%)
+2cpu default    349.585734              --                           349.585734      33 
+2cpu PR red.    324.131942              5.929363                     330.061305      29   
+2cpu PR inc.    389.812252              6.187162                     395.999414      35   
+1 cpu           411.099874              --                           411.099874      26   
 
 Percentual changes of reconf CPU:
 Baseline        Exec time       Total time    Memory    Total area
-2cpu Default        
+2cpu Default      |||               ---         ||          --NaN--  
 
-1cpu Default            
+1cpu Default       NaN              NaN         |NaN|       --|||--     
 
