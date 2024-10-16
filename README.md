@@ -91,4 +91,4 @@ Agradeço à FAPESP pela concessão da bolsa do projeto n° 2023/15719-2, que po
 As opiniões, hipóteses e conclusões ou recomendações expressas neste material são de responsabilidade do(s) autor(es) 
 e não necessariamente refletem a visão da FAPESP.
 
-Agradeço à equipe de desenvolvimento do processador Black-Parrot e nomeadamente a Dan Petrisko que me auxiliou com dúvidas e procedimentos específicos para a implementação do processador em FPGA via PYNQ.
+Agradeço à equipe de desenvolvimento do processador [Black-Parrot](https://github.com/black-parrot/black-parrot) e nomeadamente a Dan Petrisko que me auxiliou com dúvidas e procedimentos específicos para a implementação do processador em FPGA via PYNQ.
