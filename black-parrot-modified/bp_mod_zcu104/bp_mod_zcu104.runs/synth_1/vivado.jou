@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct 16 15:08:01 2024
+# Process ID: 2939763
+# Current directory: /home/teo/Documents/IC-code/black-parrot-modified/bp_mod_zcu104/bp_mod_zcu104.runs/synth_1
+# Command line: vivado -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: /home/teo/Documents/IC-code/black-parrot-modified/bp_mod_zcu104/bp_mod_zcu104.runs/synth_1/top.vds
+# Journal file: /home/teo/Documents/IC-code/black-parrot-modified/bp_mod_zcu104/bp_mod_zcu104.runs/synth_1/vivado.jou
+# Running On: teo-note, OS: Linux, CPU Frequency: 1800.000 MHz, CPU Physical cores: 4, Host memory: 20842 MB
+#-----------------------------------------------------------
+source top.tcl -notrace

@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct 16 15:08:01 2024
+# Process ID: 2939763
+# Current directory: /home/teo/Documents/IC-code/black-parrot-modified/bp_mod_zcu104/bp_mod_zcu104.runs/synth_1
+# Command line: vivado -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: /home/teo/Documents/IC-code/black-parrot-modified/bp_mod_zcu104/bp_mod_zcu104.runs/synth_1/top.vds
+# Journal file: /home/teo/Documents/IC-code/black-parrot-modified/bp_mod_zcu104/bp_mod_zcu104.runs/synth_1/vivado.jou
+# Running On: teo-note, OS: Linux, CPU Frequency: 1800.000 MHz, CPU Physical cores: 4, Host memory: 20842 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/teo/Arm/CortexM3/AT426-BU-98000-r0p1-00rel0/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+Command: synth_design -top top -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2939982
+ERROR: [Synth 8-2510] parameter initial value cannot be omitted in this mode of verilog [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:11]
+ERROR: [Synth 8-2510] parameter initial value cannot be omitted in this mode of verilog [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:12]
+ERROR: [Synth 8-2715] syntax error near ' [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:56]
+ERROR: [Synth 8-2715] syntax error near ' [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:62]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:23]
+ERROR: [Synth 8-8896] 'logic' is an unknown type [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:24]
+ERROR: [Synth 8-9315] concurrent assignment to a non-net 'ptr_n' is not permitted [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:36]
+ERROR: [Synth 8-9315] concurrent assignment to a non-net 'ptr_n' is not permitted [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:53]
+ERROR: [Synth 8-9315] concurrent assignment to a non-net 'ptr_nowrap' is not permitted [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:63]
+ERROR: [Synth 8-9315] concurrent assignment to a non-net 'ptr_n' is not permitted [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:67]
+INFO: [Synth 8-8750] module 'bsg_circular_ptr' ignored due to previous errors [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:77]
+INFO: [Synth 8-8750] module 'bsg_circular_ptr__abstract' ignored due to previous errors [/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v:79]
+Failed to read verilog '/home/teo/Documents/IC-code/black-parrot-modified/external/basejump_stl/bsg_misc/bsg_circular_ptr.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 0 Warnings, 0 Critical Warnings and 11 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 16 15:08:21 2024...
