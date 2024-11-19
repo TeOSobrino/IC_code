@@ -1,4 +1,4 @@
-Config          Logic LUTs  LUTRAMs  FFs      RAMB36  RAMB18  DSP48
+aConfig          Logic LUTs  LUTRAMs  FFs      RAMB36  RAMB18  DSP48
 Default         31,096      1,360    12,910   6       147     11
 Small           24,199      1,102    10,034   6       82      11
 reconf red      30,546      1,314    12,817   6       102     11

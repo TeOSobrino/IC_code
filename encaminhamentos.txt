@@ -1,0 +1,21 @@
+inscrever: revista sobre embarcados
+
+mensagem clara -> O que será mostrado pelo artigo
+
+produzir o tamanho das configurações
+
+Coletar dados: Cache Hit/Miss e FPU usage
+
+Foco na Arquitetura: Mecanismo para reconfiguração baseado em leitura dinâmica de métricas do processador FPU e Cache
+
+Foco em triggers!
+
+Retirada da FPU -> resolução via asm
+
+testbenches maiores:
+
+Rede neural grande -> extração de features com mais cache
+convoluções e classificação com mais cores, FPU ou sem FPU
+
+coletar resultados
+
