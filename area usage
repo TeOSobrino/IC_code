@@ -1,20 +1,28 @@
-aConfig          Logic LUTs  LUTRAMs  FFs      RAMB36  RAMB18  DSP48
-Default         31,096      1,360    12,910   6       147     11
-Small           24,199      1,102    10,034   6       82      11
-reconf red      30,546      1,314    12,817   6       102     11
-reconf inc      31,596      1,789    12,989   6       206     11
-Available       230,400     --       460,800  --      672     1728
+Config             Logic LUTs  LUTRAMs  FFs      RAMB36  RAMB18  DSP48
+Default            68,412      2,750    26,820   12      250     24
+Extra core (FPU)   83,514      2,902    26,034   15      311     24
+Inc cache (Core)   61,419      1,314    29,817   9       352     28
+Inc cache (FPU)    65,596      1,789    31,009   12      365     26
+Available (total) 230,400     --       460,800   336     672     1728
 
-reduced:   -30.62%
-increased: +40.14%
+memory modifications:
+Extra core: +24.87%
+Inc cache (Core): +35.04%
+Inc cache (FPU): +41.97%
 
-File1 size: 2.3MB;
-File2 size: 2.4MB;
+Bitstreams:
+Extra core size: 4972 KB 
+Inc cache (Core) size: 4528 KB
+Inc cache (FPU) size: 5091 KB
 
-Throughput: 387.9 MB/s
+Throughput: 397.4 MB/s
 
-PR1 Time consumption:  5929.363 us (10e-6)
-PR2 Time consumption:  6187.162 us (10e-6)
+Time consumption:
+Extra core: 12.218 ms 
+Inc cache (Core): 11.127 ms
+Inc cache (FPU): 12.510 ms
+
+Testbenches:
 
 CNN:
 
