@@ -57,9 +57,10 @@ Caso contrário é necessário compilar os arquivos presentes na pasta black-par
 Os arquivos do vivado devem ser compatíveis com versões 2022.1 e posteriores, porém foi testado apenas na versão 2022.1.
 Passos para realizar a reprodução do conteúdo deste diretório:
 
-### Clonar o Repo:
+### Clonar o Repo e copiar dependências:
 ```
 git clone https://github.com/TeOSobrino/IC_code.git
+git checkout
 ```
 
 ### Realizar a síntese dos arquivos no vivado (caso a placa usada não seja uma ZCU104):
