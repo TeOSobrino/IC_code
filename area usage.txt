@@ -33,10 +33,10 @@ Testbenches:
 CNN:
 
 Config          Execution Time(ms)      Reconfiguration Time(ms)      Total time(ms)    Avg Cache Hit(%)
-4cpu (default)        -                 0                             173.849438        70
-5cpu                  -                 12.218                        195.042404        44
-3cpu Inc Cache        -                 11.127                        170.770001        88
-4cpu Inc Cache        -                 12.510                        304.968775        37
+4cpu (default)        91.949            0                             91.949            65
+5cpu                  84.713            12.218                        96.931            63
+3cpu Inc Cache        93.466            11.127                        104.593           82
+4cpu Inc Cache        85.320            12.510                        97.830            83
 
 Percentual changes of reconf CPU:
 Baseline        Exec time       Total time    Memory    Total area
@@ -47,10 +47,10 @@ Baseline        Exec time       Total time    Memory    Total area
 Linked List:
 
 Config          Execution Time(ms)      Reconfiguration Time(ms)     Total time(ms)     Avg Cache Hit(%)
-4cpu (default)          -               0                            173.849438         70
-5cpu                    -               12.218                       195.042404         44
-3cpu Inc Cache          -               11.127                       170.770001         88
-4cpu Inc Cache          -               12.510                       304.968775         37
+4cpu (default)      176.031             0                            176.031            29
+5cpu                140.845             12.218                       153.063            34
+3cpu Inc Cache      243.057             11.127                       254.184            28
+4cpu Inc Cache      135.219              12.510                      147.729            31
 
 Percentual changes of reconf CPU:
 Baseline        Exec time       Total time    Memory    Total area
