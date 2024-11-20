@@ -61,7 +61,11 @@ Passos para realizar a reprodução do conteúdo deste diretório:
 ```
 git clone https://github.com/TeOSobrino/IC_code.git
 git checkout
+cd bp-(...)
+make build
 ```
+repetir o processo de build para as pastas relevantes ao código do processador, seguindo os passos detalhados nos repositórios 
+do black-parrot.
 
 ### Realizar a síntese dos arquivos no vivado (caso a placa usada não seja uma ZCU104):
 ```
