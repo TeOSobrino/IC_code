@@ -36,6 +36,7 @@ python: 3.11.8
 ```
 
 ### FPGA (host):
+``` Zynq UltraScale+ MPSoC ZCU104 Evaluation Kit ```
 
 #### Sistema Operacional :
 ```  PYNQ Linux, based on Ubuntu 22.04 (GNU/Linux 5.15.19-xilinx-v2022.1 aarch64) ```
