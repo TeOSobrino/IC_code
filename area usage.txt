@@ -6,7 +6,7 @@ https://github.com/TeOSobrino/IC_code
 
 Config             Logic LUTs  LUTRAMs  FFs      RAMB36  RAMB18  DSP48
 Default            68,412      2,750    26,820   12      250     24
-Extra core (FPU)   83,514      2,902    26,034   15      311     24
+Extra core (FPU)   83,514      2,902    26,034   15      312     24
 Inc cache (Core)   61,419      1,314    29,817   9       352     28
 Inc cache (FPU)    65,596      1,789    31,009   12      365     26
 Available (total) 230,400     --       460,800   336     672     1728
@@ -38,11 +38,6 @@ Config          Execution Time(ms)      Reconfiguration Time(ms)      Total time
 3cpu Inc Cache        93.466            11.127                        104.593           82
 4cpu Inc Cache        85.320            12.510                        97.830            83
 
-Percentual changes of reconf CPU:
-Baseline        Exec time       Total time    Memory    Total area
-2cpu Default    101.48%         134.70%       69.39%    94.35%
-1cpu Default    58.49%          77.63%        169.39%   194.35%
-
 
 Linked List:
 
@@ -50,10 +45,4 @@ Config          Execution Time(ms)      Reconfiguration Time(ms)     Total time(
 4cpu (default)      176.031             0                            176.031            29
 5cpu                140.845             12.218                       153.063            34
 3cpu Inc Cache      243.057             11.127                       254.184            28
-4cpu Inc Cache      135.219              12.510                      147.729            31
-
-Percentual changes of reconf CPU:
-Baseline        Exec time       Total time    Memory    Total area
-2cpu Default      |||               ---         ||          --NaN--  
-
-1cpu Default       NaN              NaN         |NaN|       --|||--
+4cpu Inc Cache      135.219             12.510                       147.729            31
