@@ -1,0 +1,3 @@
+[submodule "testbenches/Simplex"]
+	path = testbenches/Simplex
+	url = git@github.com:TeOSobrino/Simplex.git

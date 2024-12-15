@@ -1,11 +1,19 @@
 
 /* llist.c
  * Generic Linked List implementation
- */
+*/
 
 #include <stdlib.h>
 #include <stdio.h>
 #include "linkedlist.h"
+
+typedef struct llist_t{
+
+    void* data;
+    struct llist* next;
+    struct llist* prev;
+
+}llist;
 
 llist *llist_create(void *new_data)
 {
