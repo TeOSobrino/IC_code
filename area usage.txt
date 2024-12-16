@@ -33,16 +33,25 @@ Testbenches:
 CNN:
 
 Config          Execution Time(ms)      Reconfiguration Time(ms)      Total time(ms)    Avg Cache Hit(%)
-4cpu (default)        91.949            0                             91.949            65
-5cpu                  84.713            12.218                        96.931            63
-3cpu Inc Cache        93.466            11.127                        104.593           82
-4cpu Inc Cache        85.320            12.510                        97.830            83
+4cpu (default)        3991.949            0                             3991.949        65
+5cpu                  3784.713            12.218                        3796.931        63
+3cpu Inc Cache        3785.466            11.127                        3797.593        82
+4cpu Inc Cache        3543.320            12.510                        3555.830        83
 
 
 Linked List:
 
-Config          Execution Time(ms)      Reconfiguration Time(ms)     Total time(ms)     Avg Cache Hit(%)
-4cpu (default)      176.031             0                            176.031            29
-5cpu                140.845             12.218                       153.063            34
-3cpu Inc Cache      243.057             11.127                       254.184            28
-4cpu Inc Cache      135.219             12.510                       147.729            31
+Config          Execution Time(ms)      Reconfiguration Time(ms)     Total time(ms)     Avg Cache Hit(%)   
+4cpu (default)      567.301             0                            567.301            34
+5cpu                439.845             12.219                       452.064            33
+3cpu Inc Cache      598.057             11.123                       609.180            39
+4cpu Inc Cache      575.219             12.512                       587.731            41
+
+
+Simplex - testbench agg2 extracted from netlib org
+
+Config          Execution Time(ms)      Reconfiguration Time(ms)     Total time(ms)     Avg Cache Hit(%)   
+4cpu (default)      1493.372            0                            1493.372           57                  
+5cpu                1317.229            12.219                       1329.448           56                  
+3cpu Inc Cache      1643.487            11.125                       1654.612           78                 
+4cpu Inc Cache      1409.986            12.508                       1402.494           79                  
